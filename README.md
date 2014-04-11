@@ -16,4 +16,8 @@ it contains code example for using MongoDB + Express + NodeJS
 3. open another Terminal window, go to app folder, type "mongod --dbpath data/" to start the mongo server using the "data" folder
 4. open browser, go to "http://localhost:3003/"
 
+### app urls
+1. http://localhost:3003/users » user list
+1. http://localhost:3003/users/new » add new user to list
+
 some code are from tutorial on http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/ but some changes needed because of the Express updates

@@ -18,4 +18,8 @@ router.get('/', function(req, res) {
 
 });
 
+router.get('/new', function(req, res) {
+  res.render('useradd', { title: 'Add New User' });
+});
+
 module.exports = router;

@@ -6,8 +6,14 @@ it contains code example for using MongoDB + Express + NodeJS
 2. on Terminal, go inside the folder and type "npm install"
 
 ### notes
-* this is developed using a Mac + Sublime Text 2 + Terminal
+* this is developed using a Mac + Sublime Text 2 + iTerm
 * make sure you install mongodb via "brew install mongo"
-* open Terminal, go to app folder, type "mongod --dbpath data/" to start the mongo server using the "data" folder
+
+
+### running the app
+1. open Terminal, go to app folder
+2. type "npm start"
+3. open another Terminal window, go to app folder, type "mongod --dbpath data/" to start the mongo server using the "data" folder
+4. open browser, go to "http://localhost:3003/"
 
 some code are from tutorial on http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/ but some changes needed because of the Express updates
